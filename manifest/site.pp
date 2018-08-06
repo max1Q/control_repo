@@ -7,6 +7,6 @@ node default {
         file { '/tmp/test1.log':
         ensure => file,
         content => "Hi Dude!!!",
-    }
+   
 }
 
