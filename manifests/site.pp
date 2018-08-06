@@ -1,11 +1,7 @@
 node default {
     file { '/root/TSTfile' :
         ensure => file,
-        content => 'initilll',
+        content => 'initilllLLL',
         owner   => 'root',
-    }
-    file { '/root/TSTfile' :
-        ensure => file,
-        owner => 'root',
     }
 }
