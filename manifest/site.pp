@@ -4,7 +4,7 @@ node default {
         content => 'This is a readme',
         owner   => 'root',
     }
-        file { '/tmp/test1.log' :
+        file { '/root/TSTfile' :
         ensure => file,
         content => "Hi Dude!!!",
    }
