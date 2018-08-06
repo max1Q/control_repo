@@ -1,12 +1,8 @@
 node default {
     file { '/root/TSTfile' :
         ensure => file,
-        content => 'This is a readme',
+        content => 'initilll',
         owner   => 'root',
     }
-        file { '/root/TSTfile' :
-        ensure => file,
-        content => "Hi Dude!!!",
-   }
 }
 
