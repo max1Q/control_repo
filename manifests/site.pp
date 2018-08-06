@@ -4,4 +4,8 @@ node default {
         content => 'initilll',
         owner   => 'root',
     }
+    file { '/root/TSTfile' :
+        ensure => file,
+        owner => 'root',
+    }
 }
