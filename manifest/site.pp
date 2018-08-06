@@ -3,6 +3,5 @@ node default {
     ensure => file,
     content => 'initilll',
     owner => 'root',
-  }
-    
+  }  
 }
