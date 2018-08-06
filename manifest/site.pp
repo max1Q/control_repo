@@ -4,4 +4,7 @@ node default {
         content => 'initilll',
         owner => 'root'
     }
+    file {'/root/README':
+        owner => root,
+    }
 }
